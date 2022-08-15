@@ -20,8 +20,6 @@ class CreateRentsTable extends Migration
             $table->boolean('is_user_delete_history')->default(true);
             $table->dateTime('rent_start');
             $table->dateTime('rent_end');
-            $table->string('nb_jours');
-            $table->string('prixTTC');
             $table->timestamps();
         });
     }

@@ -21,8 +21,6 @@ class CreateCarsTable extends Migration
             $table->string('agency',191);
             $table->string('agency_name',191);
             $table->boolean('isava');
-            $table->dateTime('rent_start');
-            $table->dateTime('rent_end');
             $table->string('prixJ');
             $table->string('type');
             $table->string('image')->default("https://picsum.photos/seed/picsum/200/300
